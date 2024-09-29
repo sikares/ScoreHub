@@ -11,14 +11,14 @@ const data = [
         image: "/images/1.jpg",
         student_number: 65070503402,
         name: "John Doe",
-        ratings: 3,
+        ratings: 4.5,
     },
     {
         id: 3,
         image: "/images/1.jpg",
         student_number: 65070503403,
         name: "Jane Smith",
-        ratings: 5,
+        ratings: 3.5,
     },
     {
         id: 4,
