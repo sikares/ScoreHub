@@ -1,4 +1,15 @@
-const data = [
+interface Student {
+    id: number;
+    image: string;
+    student_number: number;
+    name: string;
+    th_name: string;
+    phone: string;
+    email: string;
+    score: number;
+}
+
+const data: Student[]  = [
     {
         id: 1,
         image: "/images/1.jpg",
