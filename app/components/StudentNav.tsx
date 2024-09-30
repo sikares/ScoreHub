@@ -2,23 +2,13 @@
 import Link from 'next/link';
 import { useState } from 'react';
 
-interface NavbarProps {
-  onSearch: (query: string) => void;
-}
-
-export default function Navbar({ onSearch }: NavbarProps) {
+export default function StudentNav() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [searchQuery, setSearchQuery] = useState("");
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
 
-  const handleSearchChange = (evnnt: React.ChangeEvent<HTMLInputElement>) => {
-    const query = evnnt.target.value;
-    setSearchQuery(query);
-    onSearch(query);
-  };
 
   return (
     <nav className="bg-gray-800 p-4">
@@ -49,13 +39,6 @@ export default function Navbar({ onSearch }: NavbarProps) {
         </div>
 
         <div className="hidden md:flex items-center">
-          <input
-            type="text"
-            placeholder="Search..."
-            value={searchQuery}
-            onChange={handleSearchChange}
-            className="rounded-md px-3 py-2 text-md text-gray-900 mx-2.5 outline-none"
-          />
           <Link href="/" className="text-gray-300 mx-2.5 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-md font-medium">Home</Link>
           <Link href="/rank" className="text-gray-300 mx-2.5 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-md font-medium">Rank</Link>
           <button type="button" className="text-white mx-2.5 bg-green-500 rounded-md px-3 py-2 text-md font-medium hover:bg-green-600">Export Excel</button>
@@ -64,13 +47,6 @@ export default function Navbar({ onSearch }: NavbarProps) {
 
       <div className={`overflow-hidden transition-all duration-500 ease-in-out ${menuOpen ? 'max-h-64' : 'max-h-0'}`}>
         <div className="flex flex-col py-3 space-y-3 md:hidden">
-          <input
-            type="text"
-            placeholder="Search..."
-            value={searchQuery}
-            onChange={handleSearchChange}
-            className="rounded-md px-3 py-2 text-md text-gray-900 outline-none"
-          />
           <Link href="/" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-md font-medium">Home</Link>
           <Link href="/rank" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-md font-medium">Rank</Link>
           <button type="button" className="text-white bg-green-500 rounded-md px-3 py-2 text-md font-medium hover:bg-green-600">Export Excel</button>

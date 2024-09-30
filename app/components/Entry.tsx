@@ -20,9 +20,9 @@ export default function Entry(props: EntryProps) {
   return (
     <div className="mx-10 my-5">
       <Link 
-        href={`/${props.student_number}`} 
+        href={`/student/${props.student_number}`} 
         aria-label={`Student: ${props.name}, Number: ${props.student_number}`} 
-        className="rounded-lg border shadow-lg flex items-center w-[21rem] -translate-y-1 hover:scale-105 duration-300 transition-transform focus:outline-none md:w-96"
+        className="rounded-lg border shadow-lg flex items-center w-96 -translate-y-1 hover:scale-105 duration-300 transition-transform focus:outline-none md:w-96"
       >
         <Image 
           src={props.image}
