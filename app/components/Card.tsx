@@ -1,5 +1,5 @@
 "use client";
-import data from "@/data/data";
+import data from "../data/data";
 import Entry from "./Entry";
 
 interface Student {
@@ -8,6 +8,7 @@ interface Student {
   student_number: number;
   name: string;
   ratings: number;
+  score: number;
 }
 
 function createEntry(student: Student) {
@@ -18,6 +19,7 @@ function createEntry(student: Student) {
       student_number={student.student_number}
       name={student.name}
       ratings={student.ratings}
+      score={student.score}
     />
   );
 }
