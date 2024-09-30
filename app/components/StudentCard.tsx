@@ -19,7 +19,7 @@ export default function StudentCard({ studentNumber }: StudentCardProps) {
   return (
     <div className="flex flex-col justify-center items-center h-screen">
       {student ? (
-        <div key={student.id} className="rounded-xl border shadow-lg flex flex-col sm:flex-row items-center h-5/6 w-11/12 lg:w-1112">
+        <div key={student.id} className="rounded-xl border shadow-lg flex flex-col sm:flex-row items-center h-5/6 w-11/12 lg:w-9/12">
           <div className="relative w-full h-full sm:w-8/12 md:w-9/12 lg:h-full lg:w-7/12 xl:w-7/12">
             <Image 
               src={student.image}
