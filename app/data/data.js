@@ -7,8 +7,7 @@ const data = [
         th_name: "นายกฤตภพ ชุติทัศน์",
         phone: "0931246449",
         email: "ryugc123@gmail.com",
-        ratings: 4,
-        score: 8
+        score: 84
     },
     {
         id: 2,
@@ -18,8 +17,7 @@ const data = [
         th_name: "นายกฤตภพ ชุติทัศน์",
         phone: "0931246449",
         email: "ryugc123@gmail.com",
-        ratings: 4.5,
-        score: 2.8
+        score: 95
     },
     {
         id: 3,
@@ -29,8 +27,7 @@ const data = [
         th_name: "นายกฤตภพ ชุติทัศน์",
         phone: "0931246449",
         email: "ryugc123@gmail.com",
-        ratings: 3.4,
-        score: 15
+        score: 82
     },
     {
         id: 4,
@@ -40,8 +37,7 @@ const data = [
         th_name: "นายกฤตภพ ชุติทัศน์",
         phone: "0931246449",
         email: "ryugc123@gmail.com",
-        ratings: 4,
-        score: 8
+        score: 19
     },
     {
         id: 5,
@@ -51,8 +47,7 @@ const data = [
         th_name: "นายกฤตภพ ชุติทัศน์",
         phone: "0931246449",
         email: "ryugc123@gmail.com",
-        ratings: 2.7,
-        score: 8
+        score: 29
     },
     {
         id: 6,
@@ -62,8 +57,7 @@ const data = [
         th_name: "นายกฤตภพ ชุติทัศน์",
         phone: "0931246449",
         email: "ryugc123@gmail.com",
-        ratings: 3,
-        score: 8
+        score: 84
     },
     {
         id: 7,
@@ -73,8 +67,7 @@ const data = [
         th_name: "นายกฤตภพ ชุติทัศน์",
         phone: "0931246449",
         email: "ryugc123@gmail.com",
-        ratings: 5,
-        score: 8
+        score: 54
     },
     {
         id: 8,
@@ -84,8 +77,7 @@ const data = [
         th_name: "นายกฤตภพ ชุติทัศน์",
         phone: "0931246449",
         email: "ryugc123@gmail.com",
-        ratings: 1,
-        score: 8
+        score: 75
     },
     {
         id: 9,
@@ -95,8 +87,7 @@ const data = [
         th_name: "นายกฤตภพ ชุติทัศน์",
         phone: "0931246449",
         email: "ryugc123@gmail.com",
-        ratings: 4,
-        score: 8
+        score: 59
     },
     {
         id: 10,
@@ -106,8 +97,107 @@ const data = [
         th_name: "นายกฤตภพ ชุติทัศน์",
         phone: "0931246449",
         email: "ryugc123@gmail.com",
-        ratings: 3,
-        score: 8
+        score: 28
+    },
+    {
+        id: 11,
+        image: "/images/1.jpg",
+        student_number: 65070503411,
+        name: "GRITTAPOB CHUTITAS",
+        th_name: "นายกฤตภพ ชุติทัศน์",
+        phone: "0931246449",
+        email: "ryugc123@gmail.com",
+        score: 81
+    },
+    {
+        id: 12,
+        image: "/images/1.jpg",
+        student_number: 65070503412,
+        name: "John Doe",
+        th_name: "นายกฤตภพ ชุติทัศน์",
+        phone: "0931246449",
+        email: "ryugc123@gmail.com",
+        score: 39
+    },
+    {
+        id: 13,
+        image: "/images/1.jpg",
+        student_number: 65070503413,
+        name: "Jane Smith",
+        th_name: "นายกฤตภพ ชุติทัศน์",
+        phone: "0931246449",
+        email: "ryugc123@gmail.com",
+        score: 29
+    },
+    {
+        id: 14,
+        image: "/images/1.jpg",
+        student_number: 65070503414,
+        name: "Alice Johnson",
+        th_name: "นายกฤตภพ ชุติทัศน์",
+        phone: "0931246449",
+        email: "ryugc123@gmail.com",
+        score: 29
+    },
+    {
+        id: 15,
+        image: "/images/1.jpg",
+        student_number: 65070503415,
+        name: "Bob Brown",
+        th_name: "นายกฤตภพ ชุติทัศน์",
+        phone: "0931246449",
+        email: "ryugc123@gmail.com",
+        score: 76
+    },
+    {
+        id: 16,
+        image: "/images/1.jpg",
+        student_number: 65070503416,
+        name: "Charlie Davis",
+        th_name: "นายกฤตภพ ชุติทัศน์",
+        phone: "0931246449",
+        email: "ryugc123@gmail.com",
+        score: 16
+    },
+    {
+        id: 17,
+        image: "/images/1.jpg",
+        student_number: 65070503417,
+        name: "Emily Wilson",
+        th_name: "นายกฤตภพ ชุติทัศน์",
+        phone: "0931246449",
+        email: "ryugc123@gmail.com",
+        score: 92
+    },
+    {
+        id: 18,
+        image: "/images/1.jpg",
+        student_number: 65070503418,
+        name: "David Lee",
+        th_name: "นายกฤตภพ ชุติทัศน์",
+        phone: "0931246449",
+        email: "ryugc123@gmail.com",
+        score: 48
+    },
+    {
+        id: 19,
+        image: "/images/1.jpg",
+        student_number: 65070503419,
+        name: "Sarah Miller",
+        th_name: "นายกฤตภพ ชุติทัศน์",
+        phone: "0931246449",
+        email: "ryugc123@gmail.com",
+        score: 26
+    },
+    {
+        id: 20,
+        image: "/images/1.jpg",
+        student_number: 65070503420,
+        name: "Michael Brown",
+        th_name: "นายกฤตภพ ชุติทัศน์",
+        phone: "0931246449",
+        email: "ryugc123@gmail.com",
+        score: 15
     },
 ];
 

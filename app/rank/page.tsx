@@ -1,7 +1,7 @@
 'use client';
 import { useParams } from 'next/navigation';
 import StudentNav from '@/app/components/StudentNav';
-import StudentCard from '@/app/components/StudentCard';
+import Rank from '../components/Rank';
 
 export default function Page() {
   const { student_number } = useParams();
@@ -11,7 +11,7 @@ export default function Page() {
   return (
     <div>
       <StudentNav />
-      <StudentCard studentNumber={studentNumber} />
+      <Rank studentNumber={studentNumber} />
     </div>
   );
 }

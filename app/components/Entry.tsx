@@ -5,7 +5,6 @@ interface EntryProps {
   image: string;
   student_number: number;
   name: string;
-  ratings: number;
   score: number;
 }
 

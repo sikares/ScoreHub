@@ -7,7 +7,6 @@ interface Student {
   image: string;
   student_number: number;
   name: string;
-  ratings: number;
   score: number;
 }
 
@@ -18,7 +17,6 @@ function createEntry(student: Student) {
       image={student.image}
       student_number={student.student_number}
       name={student.name}
-      ratings={student.ratings}
       score={student.score}
     />
   );
