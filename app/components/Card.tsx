@@ -33,7 +33,8 @@ export default function Card({ searchQuery }: CardProps) {
   );
 
   return (
-    <div className="flex flex-wrap justify-center my-10">
+    <div className="flex flex-wrap justify-center pt-20 md:pt-24">
+      <h3 className="w-full font-bold text-2xl text-center mb-4 text-gray-800 sm:text-3xl">Student</h3>
       {filteredData.map(createEntry)}
     </div>
   );

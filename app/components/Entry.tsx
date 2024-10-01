@@ -17,7 +17,7 @@ export default function Entry(props: EntryProps) {
   const hasFractionalStar = fractionalPart > 0;
 
   return (
-    <div className="mx-10 my-5">
+    <div className="mx-10 my-6 xl:my-7">
       <Link 
         href={`/student/${props.student_number}`} 
         aria-label={`Student: ${props.name}, Number: ${props.student_number}`} 

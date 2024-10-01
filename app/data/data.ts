@@ -14,7 +14,7 @@ const data: Student[]  = [
         id: 1,
         image: "/images/1.jpg",
         student_number: 65070503401,
-        name: "GRITTAPOB CHUTITAS",
+        name: "Mr.Sikares Nuntipatsakul",
         th_name: "นายกฤตภพ ชุติทัศน์",
         phone: "0931246449",
         email: "ryugc123@gmail.com",

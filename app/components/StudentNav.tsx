@@ -11,7 +11,7 @@ export default function StudentNav() {
 
 
   return (
-    <nav className="bg-gray-800 p-4">
+    <nav className="bg-gray-800 p-4 fixed top-0 left-0 right-0 z-50 shadow-md">
       <div className="flex items-center justify-between">
       <div className="text-white font-bold text-xl">
         <Link href="/" className="flex items-center">
