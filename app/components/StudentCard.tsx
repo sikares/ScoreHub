@@ -71,7 +71,7 @@ export default function StudentCard({ studentNumber }: StudentCardProps) {
               className="rounded-t-xl md:rounded-b-xl"
             />
           </div>
-          <div className="flex flex-col justify-start items-start px-6 py-4 sm:p-4 lg:p-10 w-full sm:w-9/12 lg:w-1/2">
+          <div className="flex flex-col justify-start items-start p-4 sm:p-4 lg:p-10 w-full sm:w-10/12 lg:w-1/2 md:px-6">
             <p className="text-gray-700 p-2 text-lg sm:text-xl md:text-2xl md:py-2 lg:text-3xl lg:py-3 xl:text-4xl xl:py-4 font-semibold">{student.name}</p>
             <p className="text-gray-600 p-2 text-md sm:text-lg md:text-xl md:py-2 lg:text-2xl lg:py-3 xl:text-3xl xl:py-4 font-semibold">{student.th_name}</p>
             <p className="text-gray-700 p-2 text-md sm:text-md md:text-lg md:py-2 lg:text-xl lg:py-3 xl:text-2xl xl:py-4 font-semibold">{student.student_number}</p>
@@ -129,18 +129,17 @@ export default function StudentCard({ studentNumber }: StudentCardProps) {
             <div className="flex flex-col py-10 w-full items-center">
               <div className="flex items-center space-x-3 justify-center w-full">
                 <button
-                  onClick={() => handleIncreaseScore(-1)}
-                  className="bg-red-500 hover:bg-red-600 text-white rounded-lg p-2 w-10"
-                >
-                  -1
-                </button>
-                <button
                   onClick={() => handleIncreaseScore(-5)}
                   className="bg-red-500 hover:bg-red-600 text-white rounded-lg p-2 w-10"
                 >
                   -5
                 </button>
-                
+                <button
+                  onClick={() => handleIncreaseScore(-1)}
+                  className="bg-red-500 hover:bg-red-600 text-white rounded-lg p-2 w-10"
+                >
+                  -1
+                </button>
                 <input
                   type="number"
                   value={score}
@@ -149,23 +148,22 @@ export default function StudentCard({ studentNumber }: StudentCardProps) {
                   className="border rounded-lg p-2 text-lg outline-none w-28 text-center"
                   placeholder="0/100"
                 />
-                
-                <button
-                  onClick={() => handleIncreaseScore(5)}
-                  className="bg-green-500 hover:bg-green-600 text-white rounded-lg p-2 w-10"
-                >
-                  +5
-                </button>
                 <button
                   onClick={() => handleIncreaseScore(1)}
                   className="bg-green-500 hover:bg-green-600 text-white rounded-lg p-2 w-10"
                 >
                   +1
                 </button>
+                <button
+                  onClick={() => handleIncreaseScore(5)}
+                  className="bg-green-500 hover:bg-green-600 text-white rounded-lg p-2 w-10"
+                >
+                  +5
+                </button>
               </div>
               <button
                 onClick={handleSubmit}
-                className="bg-blue-500 hover:bg-blue-600 text-white rounded-lg p-2 mt-4"
+                className="bg-blue-500 hover:bg-blue-600 text-white rounded-lg p-2 mt-4 w-80"
               >
                 Submit
               </button>
