@@ -7,9 +7,9 @@ export default function MainComponent() {
   const [searchQuery, setSearchQuery] = useState("");
 
   return (
-    <div>
+    <>
       <Navbar onSearch={setSearchQuery} />
       <Card searchQuery={searchQuery} />
-    </div>
+    </>
   );
 }

@@ -3,13 +3,6 @@ import { useState, useEffect } from 'react'
 import data from '../data/data'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
-interface Student {
-  id: number
-  student_number: string
-  name: string
-  score: number
-}
-
 interface RankProps {
   studentNumber?: string
 }
